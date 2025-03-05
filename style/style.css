@@ -152,20 +152,134 @@ color: black;
     padding-top: 10px;
 
 }
+.linia{
+    padding-left:420px;
+    padding-top: 60px;
+    width: 600px;
+}
+.h1{
+    text-align: center;
+    font-size: 46px;
+    padding-top: 50px;
+}
+.pp{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 15px;
+}
+.column{
+    display:flex;
+    gap: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.inside{
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.inside h3{
+    margin: 0 0 5px 0;
+    padding-left: 5px;
+}
+.inside p{
+    margin:0;
+}
+.prawa .ss{
+    height: 454px;
+    width: 619px;
+   padding-right: 100px;
+   padding-left: 160px;
+    
+}
+.inside .img1{
+    height: 80px;
+    width: 69px;
+    padding-left: 115px;
+}
+.inside .img2{
+    height: 80px;
+    width: 87px;
+    padding-left: 110px;
+}
+.inside .img3{
+    height: 69px;
+    width: 70px;
+    padding-left: 120px;
+}
+.inside .img4{
+    height: 80px;
+    width: 47px;
+    padding-left: 132px;
+}
+.column{
+    padding-top: 50px;
+    padding-right: 0;
+}
+.inside .h{
+    margin-left: 15px;
+}
+.inside .h3{
+    margin-left: 2px;
+}
+.inside .h4{
+    margin-left: 15px;
+}
+.kreska{
+    padding-left:420px;
+    padding-top: 60px;
+    width: 600px;
+}
+.products h1{
+   text-align: center;
+    font-size: 46px;
+}
+.wektor{
+    width:250px;
+}
+.wektor1{
+    width:250px;
+}
+.wektor2{
+    width: 250px;
+}
+.wektor3{
+    width: 250px;
+}
+.kontener{
+    padding-left: 300px;
+    display: flex;
+    align-items: center;
+    
+}
+table{
+    width:900px;
+    height: 390px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #2F80ED;
+}
+th, td{
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #2F80ED;
+    
+}
+.buybtn{
+    height: 45px;
+    width: 93px;
+    background-color: #ffc107;
+    border: none;
+    padding:10px, 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.dol{
+    color: red;
+}
+.gora{
+    color: green;
+}
 
 
 
