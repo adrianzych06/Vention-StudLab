@@ -153,7 +153,7 @@ color: black;
 
 }
 .linia{
-    padding-left:420px;
+    padding-left:450px;
     padding-top: 60px;
     width: 600px;
 }
@@ -226,13 +226,14 @@ color: black;
     margin-left: 15px;
 }
 .kreska{
-    padding-left:420px;
+    padding-left:450px;
     padding-top: 60px;
     width: 600px;
 }
 .products h1{
    text-align: center;
     font-size: 46px;
+    padding-top: 50px;
 }
 .wektor{
     width:250px;
@@ -247,23 +248,30 @@ color: black;
     width: 250px;
 }
 .kontener{
+    padding-top: 40px;
     padding-left: 300px;
     display: flex;
     align-items: center;
     
 }
 table{
+    border-style: hidden;
     width:900px;
     height: 390px;
-    border-collapse: collapse;
+    border-collapse:collapse;
     margin-top: 20px;
     border: 1px solid #2F80ED;
+
+    
 }
 th, td{
     padding: 12px;
-    text-align: center;
+    text-align: center; 
+    width: auto;
+}
+
+tr{
     border: 1px solid #2F80ED;
-    
 }
 .buybtn{
     height: 45px;
@@ -280,6 +288,177 @@ th, td{
 .gora{
     color: green;
 }
+.krecha{
+
+    padding-left: 450px;
+    width: 600px;
+    padding-top: 80px;
+   
+}
+.why{
+    text-align: center;
+    font-size: 46px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.opis{
+    padding-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+#father{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 45;
+    justify-content: center;
+    max-width: 1200px;
+}
+.child{
+    flex-basis: 30%;
+    padding-top: 48px;
+    gap: 300px;
+    justify-content: center;
+    text-align: center;
+
+}
+#ojciec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rec25{
+    padding-top: 80px;
+    padding-left: 450px;
+    width: 600px;
+}
+.review{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 46px;
+}
+.satisfaction{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px;
+}
+#customers{
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+    padding-top: 40px;
+}
+.rect26{
+    padding-top: 80px;
+    padding-left: 450px;
+    width: 600px;
+}
+.blg{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 46px;
+}
+.date{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px; 
+}
+#outside{
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    max-width: 1200px;
+}
+#blog{
+    font-size: 16px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.more{
+    color: #2F80ED;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 12px;
+}
+.in h2{
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+.prostokat{
+    position: relative;
+    background-color: #f2f2f2;
+    height: 603px;
+    width: 100%;
+    margin-top: 80px;
+    display:flex;
+    
+
+}
+.prostokat h3{
+    font-size: 20px;
+    padding-top: 60px;
+    padding-left: 120px;
+    padding-bottom: 16px;
+}
+.prostokat a{
+    display: block;
+    padding-left: 120px;
+    padding-top: 10px;
+    color: #828282;
+    text-decoration: none;
+}
+.email{
+    padding:10px;
+    height: 10px;
+    width: 213px;
+    border: 2px solid #ccc;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+}
+.submit{
+    padding: 10px;
+    height: 30px;
+    width:100px;
+    border: 2px #2F80ED;
+    outline: none;
+    background-color: #2F80ED;
+}
+.form{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 120px;
+}
+.form input[type="email"]{
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+
+}
+.form button{
+    width: 120px;
+    background-color: #2F80ED;
+    color: #fff;
+    border: none;
+    padding: 10 px 20px;
+    font-size: 16px;
+   
+}
+.form button:hover{
+    background-color: #2F80ED;
+}
+.separator{
+    width: 900px;
+    height: 1px;
+    background-color: #DDDDDD;
+    margin: 20px auto;
+
+}
+
+
+
+
+
 
 
 
