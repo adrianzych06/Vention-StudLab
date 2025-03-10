@@ -9,7 +9,6 @@
 
 .rectangle{
     position: relative;
-    padding-top:-20px;
     height: 40px;
     width: 100%;
     background-color: #D4F1F4;
@@ -78,7 +77,17 @@ color: black;
     display: flex;
     align-items: center;
 }
-.digital{
+#leftsec h1{
+    padding-top: 30px;
+    font-size: 46px;
+}
+#leftsec{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.inleft{
     position: relative;
     font-weight: bold;
     font-family:Ninova;
@@ -92,26 +101,11 @@ color: black;
     font-weight: lighter;
     padding-top: 20px;
 }
-.images{
-    padding-top: 10px;
-    float: right;
-    padding-right: 80px;
-    display: flex;
-}
 .getstarted{
     position: relative;
-    padding-left: 70px;
     padding-top:40px;
     display: flex;
     align-items: center;
-}
-.ip1{
-    height: 328px;
-    padding-top: 40px;
-}
-.ip3{
-    height: 328px;
-    padding-top: 40px;
 }
 .star{
     height: 60px;
@@ -129,11 +123,12 @@ color: black;
 }
 .napis{
     font-size: 20px;
-    padding-left: 70px;
     padding-top: 10px;
+    font-weight: lighter;
     align-items: center;
     
 }
+
 .tekst{
     position: relative;
     align-items: center;
@@ -152,11 +147,40 @@ color: black;
     padding-top: 10px;
 
 }
-.linia{
-    padding-left:450px;
-    padding-top: 60px;
-    width: 600px;
+.rightsec{
+    max-width: 50%;
 }
+.inright{
+    float: right;
+}
+#phones{
+    padding-top: 30px;
+}
+#pierwsza{
+    display: flex;  
+    margin: auto; 
+    justify-content: center;
+}
+#hhhh{
+    display: flex;
+    
+}
+hr{
+    border-radius: 5px;
+    border: none;
+    background-color: #2F80ED;
+    margin: auto;
+    height: 1px;
+    width: 600px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#druga{
+    display: flex;
+    justify-content: center;
+}
+
+
 .h1{
     text-align: center;
     font-size: 46px;
@@ -225,11 +249,7 @@ color: black;
 .inside .h4{
     margin-left: 15px;
 }
-.kreska{
-    padding-left:450px;
-    padding-top: 60px;
-    width: 600px;
-}
+
 .products h1{
    text-align: center;
     font-size: 46px;
@@ -248,10 +268,10 @@ color: black;
     width: 250px;
 }
 .kontener{
-    padding-top: 40px;
-    padding-left: 300px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding-top: 40px;
     
 }
 table{
@@ -261,8 +281,6 @@ table{
     border-collapse:collapse;
     margin-top: 20px;
     border: 1px solid #2F80ED;
-
-    
 }
 th, td{
     padding: 12px;
@@ -288,13 +306,7 @@ tr{
 .gora{
     color: green;
 }
-.krecha{
 
-    padding-left: 450px;
-    width: 600px;
-    padding-top: 80px;
-   
-}
 .why{
     text-align: center;
     font-size: 46px;
@@ -326,11 +338,7 @@ tr{
     justify-content: center;
     align-items: center;
 }
-.rec25{
-    padding-top: 80px;
-    padding-left: 450px;
-    width: 600px;
-}
+
 .review{
     text-align: center;
     padding-top: 60px;
@@ -344,13 +352,8 @@ tr{
 #customers{
     display: flex;
     align-items: center;
-    padding-left: 130px;
+    justify-content: center;
     padding-top: 40px;
-}
-.rect26{
-    padding-top: 80px;
-    padding-left: 450px;
-    width: 600px;
 }
 .blg{
     text-align: center;
@@ -385,14 +388,10 @@ tr{
     padding-bottom: 12px;
 }
 .prostokat{
-    position: relative;
-    background-color: #f2f2f2;
-    height: 603px;
+    display:flex;
+    justify-content: center;
     width: 100%;
     margin-top: 80px;
-    display:flex;
-    
-
 }
 .prostokat h3{
     font-size: 20px;
@@ -423,19 +422,19 @@ tr{
     outline: none;
     background-color: #2F80ED;
 }
-.form{
+#form{
     display: flex;
     margin-top: 20px;
     padding-left: 120px;
 }
-.form input[type="email"]{
+#form input[type="email"]{
     flex: 1;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
 
 }
-.form button{
+#form button{
     width: 120px;
     background-color: #2F80ED;
     color: #fff;
@@ -444,23 +443,61 @@ tr{
     font-size: 16px;
    
 }
-.form button:hover{
+#form button:hover{
     background-color: #2F80ED;
 }
-.separator{
-    width: 900px;
-    height: 1px;
+#dolna{
     background-color: #DDDDDD;
-    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    margin:auto;
+}
+.foot{
+    justify-content: center;
+}
+#footer{
+    background-color: #f2f2f2;
+
 
 }
-
-
-
-
-
-
-
+#dolny{
+    background-color: #DDDDDD;
+    width: 1200px;
+}
+.p1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+    padding-left: 90px;
+}
+#pr .free{
+    margin-left: 20px;
+}
+.com{
+    max-width: 50%;
+    align-items: center;
+    display: flex;
+    margin-bottom: 40px;
+}
+.partners{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.partners img{
+    margin: 10px;
+    
+}
 
 
 
